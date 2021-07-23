@@ -81,8 +81,8 @@ Setting up Orc8r locally on Ubuntu
 5. add admin_operator.pfx to your browser certificate
 6. open https://localhost:9443/swagger/v1/ui in your browser after adding admin_operator.pfx as a certificate
 
-**e) If only want to use Orc8r
-**
+**e) If only want to use Orc8r**
+
 1. exit from vagrant MAGMA-VM
 2. cd magma/lte/gateway
 3. vagrant halt magma (if giving problems then use sudo with vagrant)
