@@ -1,4 +1,4 @@
-# Magma
+# Deploy Fresh Magma and Orc8r
 
 Setting up Orc8r locally on Ubuntu
 
