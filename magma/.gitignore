@@ -1,0 +1,99 @@
+# Vagrant
+.vagrant
+*.retry
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# Python: byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Python: virtual environments
+.env/
+.coverage
+.python-version
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+/build/
+develop-eggs/
+dist/
+eggs/
+build/lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+orc8r/gateway/python/build
+lte/gateway/python/build
+
+# Ignore generated Swagger files
+orc8r/cloud/swagger/specs
+
+# Node
+node_modules/
+
+# Docusaurus
+docs/docusaurus/build/
+
+# Ignore apt/build cache
+.cache/*
+
+# Packer build artifacts
+*.box
+*.iso
+*.vdi
+
+# Terraform
+.terraform
+*.plan
+aws_keys.tfvars
+
+# Helm
+orc8r/cloud/helm/**/.secrets/
+
+# CMake debug files
+lte/gateway/c/session_manager/cmake-build-debug/
+
+# Log files
+*.log
+
+# Cscope and tags
+cscope.*
+tags
+
+# CI files
+archives/
+test_results_magma_converged_mme.html
+orc8r/cloud/test-results/
+
+# IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+.venv/
+
+# FB internal
+fb
+
+# MacOS artifacts
+.DS_Store
+
+# Code coverage
+orc8r/cloud/coverage/
+feg/gateway/coverage/
+lte/gateway/c/oai/code_coverage/
