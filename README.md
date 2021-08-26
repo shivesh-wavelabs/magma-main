@@ -63,7 +63,7 @@ Setting up Orc8r locally on Ubuntu
 **b) Build Orc8r**
 
 1. cd magma/orc8r/cloud/docker
-2. sudo PWD=$PWD ./build.py –all
+2. sudo PWD=$PWD ./build.py --all
 
 **c) Build AGW**
 
@@ -76,7 +76,7 @@ Setting up Orc8r locally on Ubuntu
 
 1. cd magma/orc8r/cloud/docker in HOST (your own login and not vagrant) 
 2. sudo PWD=$PWD ./run.py --metrics
-3. cd ../../.././cache/test_certs
+3. cd ../../../.cache/test_certs
 4. cp admin_operator.pfx ../../../
 5. add admin_operator.pfx to your browser certificate
 6. open https://localhost:9443/swagger/v1/ui in your browser after adding admin_operator.pfx as a certificate
